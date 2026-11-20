@@ -3,7 +3,7 @@
 <head>
   <title>Simple JS Game</title>
   <style>
-    canvas { border: 2px solid black; background: #f0f0f0; display: block; margin: 20px auto; }
+    canvas { border: 2px solid red; background: #f0f0f0; display: block; margin: 20px auto; }
   </style>
 </head>
 <body>
