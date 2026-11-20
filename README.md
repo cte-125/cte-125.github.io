@@ -1,3 +1,5 @@
+
+<div id="background" style="height: 200px;"></div>
 <button id="btn">Change Page Color</button>
 
 <script>
