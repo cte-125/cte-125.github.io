@@ -10,7 +10,10 @@
   <li><data value="21055">Snack Tomato</data></li>
 </ul>
 
-<div id="text"></div>
+
+<button onclick="myFunction()">Click me</button>
 <script>
-  document.getElementById("text").innerHTML = "Text added by JavaScript";
+  function myFunction() {
+    alert("Button clicked!");
+  }
 </script>
