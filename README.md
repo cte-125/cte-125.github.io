@@ -1,19 +1,13 @@
-# HELLO WORLD
-<b>FOOOOOOO</b>
-<button type="button">Click Me!</button>
-<button type="button">NOOOOO Click Me!</button>
-
-<ul>
-<script></script>
-  <li><data value="21053"><button type="button">Cherry Tomato</button></data></li>
-  <li><data value="21054"><button type="button">I Eat Food</button></data></li>
-  <li><data value="21055">Snack Tomato</data></li>
-</ul>
-
-
-<button onclick="myFunction()">Click me</button>
-<script>
-  function myFunction() {
-    alert("Button clicked!");
-  }
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple JS Game</title>
+  <style>
+    canvas { border: 2px solid black; background: #f0f0f0; display: block; margin: 20px auto; }
+  </style>
+</head>
+<body>
+<canvas id="gameCanvas" width="400" height="400"></canvas>
+<script src="game.js"></script>
+</body>
+</html>
