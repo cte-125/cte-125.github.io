@@ -1,10 +1,12 @@
 <button id="btn">Change Page Color</button>
 
 <script>
-const arr1 = ["yellow", "red", "salmon"];
-
-document.getElementById('btn').addEventListener('click', () => {
-  const item = arr1[Math.floor(Math.random() * arr1.length)];
-  document.body.style.backgroundColor = item;
-});
+var i = 0;
+function change() {
+  var doc = document.getElementById("background");
+  var color = ["black", "blue", "brown", "green"];
+  doc.style.backgroundColor = color[i];
+  i = (i + 1) % color.length;
+}
+setInterval(change, 1000);
 </script>
